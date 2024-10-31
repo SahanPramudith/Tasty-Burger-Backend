@@ -1,6 +1,13 @@
 package edu.icet.crm.model;
 
 import jakarta.persistence.Lob;
+import lombok.*;
+
+@ToString
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 
 public class Post {
     private Integer id;
