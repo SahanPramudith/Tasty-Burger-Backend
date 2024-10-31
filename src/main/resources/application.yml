@@ -1,0 +1,9 @@
+spring :
+  datasource :
+    url : jdbc:mysql://localhost:3306/tasty_buger
+    password : sahan
+    username : root
+
+  jpa :
+    hibernate :
+      ddl-auto : update
